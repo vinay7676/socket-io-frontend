@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { Send, Users, Smile, ArrowLeft, Menu } from "lucide-react";
 import io from "socket.io-client";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://socket-io-backend-0q9o.onrender.com";
 const socket = io.connect(API_URL);
 
 export default function Chat({ token, setToken }) {
