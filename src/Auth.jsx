@@ -63,7 +63,7 @@ export default function Auth({ setToken }) {
             className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-indigo-500 transition text-base"
             required
           />
-          {error && <p className="text-red-500 text-sm text-center">{error}</p>}
+          {error && <p className="text-blue-500 text-sm text-center">{error}</p>}
 
           <button
             type="submit"
