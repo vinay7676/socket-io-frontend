@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_URL = "http://localhost:5000/auth";
+const API_URL = "https://socket-io-backend-0q9o.onrender.com/auth";
 
 export default function Auth({ setToken }) {
   const [isSignup, setIsSignup] = useState(false);
